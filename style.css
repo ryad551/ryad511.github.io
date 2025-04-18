@@ -204,4 +204,41 @@ input:focus {
         flex-direction: column;
         gap: 15px;
     }
+}
+
+/* Success Page Styles */
+.success-card {
+    text-align: center;
+}
+
+.logo-container.success {
+    background: #e8f5e9;
+}
+
+.logo-container.success .logo-icon {
+    color: #4caf50;
+    font-size: 48px;
+}
+
+.success-message {
+    margin: 30px 0;
+    color: #2c3e50;
+}
+
+.success-message p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.success-card .submit-btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #4caf50;
+}
+
+.success-card .submit-btn:hover {
+    background: #388e3c;
 } 
